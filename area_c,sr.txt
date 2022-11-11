@@ -1,0 +1,26 @@
+11.11 3:16 PM
+def circle():
+     r = int(input("Enter radius: "))
+     A = 3.14 *r*r
+     print("Area is",A)
+def square():     
+     s = int(input("Enter side: "))
+     A = s*s
+     print(A)
+def rectangle():     
+     l,b = int(input("Enter value for l,b: "))
+     A = l*b
+     print(A)
+print("1 Area of circle")     
+print("2 Area of square")
+print("3 Area of rectangle")
+ch = int(input("Enter the choice: "))
+if (ch==1):
+     circle()
+elif (ch==2):
+     square()
+elif (ch==3):   
+     rectangle() 
+else:
+     print("wrong choice")
+     

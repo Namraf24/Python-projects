@@ -1,0 +1,6 @@
+11.11 3:22 PM
+import turtle as t
+t.speed(0)
+for i in range(550):
+    t.forward(i)
+    t.left(91)

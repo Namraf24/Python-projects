@@ -1,0 +1,13 @@
+11.11 3:20 PM
+from turtle import*
+begin_fill()
+color("pink")
+bgcolor("black")
+left(50)
+forward(100)
+circle(40,180)
+left(260)
+circle(40,180)
+forward(100)
+end_fill()
+done()

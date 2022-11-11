@@ -1,0 +1,8 @@
+11.11 3:08 PM
+Calendar project 
+import calendar
+
+year = 2022
+month = 10
+
+print(calendar.month(year,month))
